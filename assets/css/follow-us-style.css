@@ -64,6 +64,9 @@ background:url(../images/follow-us.jpg);
 overflow: hidden;
 border-top: 2px solid rgb(4, 86, 209);
 border-bottom: 2px solid rgb(4, 86, 209);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: top center;
 }
 
 .banner-text{
@@ -101,7 +104,7 @@ form{
 
 input {
   font-family: 'PT Sans Narrow';
-  font-size: 20px;
+  font-size: 14px;
 }
 
 .info{
@@ -147,4 +150,32 @@ input[type="submit"]{
 
 input[type="submit"]:hover{
   background: linear-gradient(180deg, #FF6C54, #FFA754);
+}
+
+#footer{height: 130px;
+  width: 100%;
+  background:url(../images/footer.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  overflow: hidden;
+  border-top: 2px solid rgb(4, 86, 209);
+}
+
+.social{
+  text-align: center; 
+}
+
+.social > li {
+  display:inline;
+}
+
+.social  i {
+  font-size: 300%;
+  margin: 0.1%;
+  padding: 5%;
+  color: #4dec03;
+}
+
+@media screen and (max-width:600px)
+{#break-img, #break-img2{display:none}
 }
