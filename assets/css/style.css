@@ -10,7 +10,7 @@
 }
 
 #background-color {
-  background-image: linear-gradient(to right, rgba(247, 239, 239, 0.5), rgba(0, 0, 0, 0.363), rgba(113, 248, 113, 0.418));
+  background-image: radial-gradient(closest-side, #e8eaeb94, #3123f5, #1213088a);
 }
 
 .dropbtn {
@@ -147,10 +147,10 @@
 #footer {
   height: 130px;
   width: 100%;
-  background: url(../images/foot.jpg);
+  background: url(../images/footer.jpg);
   background-repeat: no-repeat;
   overflow: hidden;
-  border-top: 2px solid rgb(4, 86, 209)
+  border-top: 2px solid rgb(4, 86, 209);
 }
 
 .social {
