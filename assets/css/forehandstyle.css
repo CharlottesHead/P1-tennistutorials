@@ -8,6 +8,15 @@
   float: right;
   font-size: 45px;
   color: #0456d1;
+  
+}
+.fa-baseball-ball {
+  transform: rotate(45deg);
+  color: #dfff4f;
+  border: 2px solid black;
+  border-radius: 50%;
+  background: white;
+  margin-right:10px;
 }
 
 #background-color {
@@ -125,7 +134,7 @@
 
 .action-img {
   float: left;
-  border-right: #0456d1 2px solid;
+  /* border-right: #0456d1 2px solid; */
   height: 275px;
   width: 350px;
 
