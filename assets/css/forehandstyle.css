@@ -13,7 +13,7 @@
 .fa-baseball-ball {
   transform: rotate(45deg);
   color: #dfff4f;
-  border: 2px solid black;
+  border: 1px solid rgb(2, 245, 15);
   border-radius: 50%;
   background: white;
   margin-right:10px;
