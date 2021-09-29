@@ -154,6 +154,7 @@ color: rgb(7, 5, 5);
   width: 100%;
   background:url(../images/footer.jpg);
   background-repeat: no-repeat;
+  background-position: bottom center;
   overflow: hidden;
   border-top: 2px solid rgb(4, 86, 209);
 }
