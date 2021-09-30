@@ -7,7 +7,14 @@
 #logo {
   float: right;
   font-size: 45px;
-  color: #0456d1;
+}
+.fa-baseball-ball {
+  transform: rotate(45deg);
+  color: #dfff4f;
+  border: 1px solid rgb(2, 245, 15);
+  border-radius: 50%;
+  background: white;
+  margin-right:10px;
 }
 
 #background-color {
@@ -125,7 +132,6 @@
 
 .action-img {
   float: left;
-  border-right: #0456d1 2px solid;
   height: 275px;
   width: 350px;
 
@@ -164,13 +170,13 @@
 
 
 
-#footer {
-  height: 130px;
+#footer{height: 130px;
   width: 100%;
-  background: url(../images/footer.jpg);
+  background:url(../images/footer.jpg);
   background-repeat: no-repeat;
+  background-position: bottom center;
   overflow: hidden;
-  border-top: 2px solid rgb(4, 86, 209)
+  border-top: 2px solid rgb(4, 86, 209);
 }
 
 .social {
