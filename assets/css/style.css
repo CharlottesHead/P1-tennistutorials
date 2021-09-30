@@ -23,7 +23,7 @@
 #background-color {
   background-image: radial-gradient(closest-side, #e8eaeb94, #3123f5, #1213088a);
 }
-
+/* dropdown menu */
 .dropbtn {
   background-color: #0456d1;
   color: rgb(247, 244, 244);
@@ -111,6 +111,7 @@
   margin: 30px auto 0;
 }
 
+/* banner buttons animation elements */
 .banner-btn a {
   background: rgb(4, 86, 209);
   width: 120px;
@@ -179,7 +180,7 @@
   color: #4dec03;
 }
 
-
+/* media queries */
 @media screen and (min-width: 1000px) {
   #about {
     height: 300px;
