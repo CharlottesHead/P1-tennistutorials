@@ -20,7 +20,7 @@
 #background-color {
   background-image: radial-gradient(closest-side, #19d37cb4, #0907779c, #f7161654);
 }
-
+/* dropdown menu */
 .dropbtn {
   background-color: #0456d1;
   color: rgb(247, 244, 244);
@@ -107,7 +107,7 @@
   text-align: center;
   margin: 30px auto 0;
 }
-
+/* banner buttons */
 .banner-btn a {
   background: rgb(4, 86, 209);
   width: 120px;
@@ -193,7 +193,7 @@
   padding: 5%;
   color: #4dec03;
 }
-
+/* media queries */
 @media screen and (max-width:650px)
   {#break-img, #break-img2{display:none}
 }
