@@ -1,94 +1,193 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="decription" content="Tennis Technique Tips and Tutorials">
-  <meta name="keywords" content="tennis, tennis tutorials, forehand, backhand, serve">
-  <title>tennistutorials.com</title>
-  <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
-  <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/da0855cfe5.js" crossorigin="anonymous"></script>
-</head>
-
-<body>
-  <div id="background-color">
-    <header>
-      <!-- div for dropdown menu -->
-      <div class="dropdown">
-        <button class="dropbtn">Menu</button>
-        <div class="dropdown-content">
-          <a href="forehand.html">Forehand</a>
-          <a href="backhand.html">Backhand</a>
-          <a href="serve.html">Serve</a>
-          <a href="follow-us.html">Follow Us!</a>
-        </div>
-      </div>
-      <div id=logo>
-        <a href="index.html">
-          <i class="fas fa-baseball-ball"></i>
-        </a>
-      </div>
-    </header>
-    <section>
-      <div id="hero-img">
-        <!-- div for link to tutorials -->
-        <div class="banner-btn">
-          <div class="banner-text">
-            <a href="forehand.html">Forehand</a>
-            <a href="backhand.html">Backhand</a>
-            <a href="serve.html">Serve</a>
-
-            <h1>Free Tennis tutorials!</h1>
+@import url(https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap:400,700);
 
 
-          </div>
-        </div>
-      </div>    
-    </section>
-    <section>
-      <div id="about">
-        <div id="about-text">
-          <h2>About Us!</h2>
-          <p>
-            <i>"Hard to pick up, impossible to master"</i> might be the shortest and most accurate way of describing
-            tennis to someone interested in taking up the sport. But it's also worth following up with that it's
-            possibly the most satisfying sports/pastimes one can play for anyone willing to put in the work.
-            <br>
-            <br>
-            This is the reason tennistutorials.com exists. To help those putting in the grind and trying to improve
-            their game. Often it's the smallest and seemingly most insignificant changes in technique that make the
-            biggest difference on the court, and many players go their whole lives without realizing they're making
-            mistakes while also wondering why they can't take their game to the next level...
-          </p>  
-            <br>
-            <br>
-            <h2>Are you ready to level up?</h2>
-          
-        </div>
-      </div>
-    </section>
-    <footer>
-      <div id="footer">
-        <ul class="social">
-          <li>
-            <a href="https://www.facebook.com" target="_blank" rel="noopener"
-              aria-label="Visit our facebook page (opens in new tab)"><i class="fa fa-facebook"></i></a>
-          </li>
-          <li>
-            <a href="https://www.youtube.com" target="_blank" rel="noopener"
-              aria-label="Visit our Youtube channel (opens in new tab)"><i class="fa fa-youtube"></i></a>
-          </li>
-          <li>
-            <a href="https://www.instagram.com" target="_blank" rel="noopener"
-              aria-label="Visit our Insta! (opens in new tab)"><i class="fa fa-instagram"></i></a>
-          </li>
-        </ul>
-      </div>
-    </footer>
-  </div>
-</body>
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Zilla Slab', serif;
+}
 
-</html>
+
+#logo {
+  float: right;
+  font-size: 45px;
+}
+
+.fa-baseball-ball {
+  transform: rotate(45deg);
+  color: #dfff4f;
+  border: 1px solid rgb(2, 245, 15);
+  border-radius: 50%;
+  background: white;
+  margin-right: 10px;
+}
+
+#background-color {
+  background-image: linear-gradient(to right, rgba(5, 5, 5, 0.5), rgba(11, 241, 22, 0.363), rgba(33, 4, 139, 0.418));
+}
+/* dropdown menu */
+.dropbtn {
+  background-color: #0456d1;
+  color: rgb(247, 244, 244);
+  text-shadow: 1px 1px 2px rgb(0, 4, 255), 0 0 1em rgb(240, 245, 239), 0 0 0.2em rgb(3, 10, 2);
+  font-weight: bolder;
+  padding: 16px;
+  font-size: 20px;
+  border: 2px transparent;
+}
+
+.dropdown {
+  float: left;
+  position: relative;
+  display: inline-block;
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgba(80, 236, 8, 0.925);
+  min-width: 160px;
+  box-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  font-weight: bolder;
+  display: block;
+}
+
+
+.dropdown-content a:hover {
+  background-color: rgb(4, 86, 209);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: rgba(153, 245, 110, 0.925);
+}
+
+#hero-img {
+  height: 400px;
+  width: 100%;
+  background: url(../images/follow-us.jpg);
+  overflow: hidden;
+  border-top: 2px solid rgb(4, 86, 209);
+  border-bottom: 2px solid rgb(4, 86, 209);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.banner-text {
+  color: rgba(80, 236, 8, 0.925);
+  padding-top: 75px;
+}
+
+
+
+/* subscribe form */
+h1 {
+  text-transform: uppercase;
+  font-size: 22px;
+  letter-spacing: 1px;
+  margin: 0px;
+  padding: 0px;
+}
+
+p {
+  margin: 0px 0px 15px 0px;
+  padding: 0px;
+  color: rgb(66, 66, 66);
+  font-style: oblique;
+  font-size: 14px;
+}
+
+form {
+  align-content: center;
+  width: 350px;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+input {
+  font-family: 'PT Sans Narrow';
+  font-size: 14px;
+}
+
+.info {
+  display: inline-table;
+
+}
+
+.info input {
+  display: inline-table;
+  width: 300px;
+  height: 20px;
+  border: 0px;
+  border-radius: 3px;
+  margin: 0px 0px 10px 0px;
+  padding: 12px 10px;
+  background: rgb(230, 229, 229);
+}
+
+.info input:last-child {
+  margin: 0px;
+}
+
+.info input:focus {
+  background: rgb(250, 245, 245);
+  outline: none;
+}
+
+input[type="submit"] {
+  vertical-align: top;
+  height: 100px;
+  width: 100px;
+  margin: 5px;
+  padding: 5px;
+  border: 0px;
+  border-radius: 3px;
+  background: rgb(219, 165, 174);
+  cursor: pointer;
+  font-weight: 850;
+  letter-spacing: 1px;
+  color: rgb(230, 228, 228);
+  background: linear-gradient(45deg, #fc30119a, #048304a6, #0456d185);
+}
+
+input[type="submit"]:hover {
+  background: linear-gradient(180deg, #6e54ff, #e2fa0a8e);
+}
+
+#footer {
+  height: 130px;
+  width: 100%;
+  background: url(../images/footer.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  overflow: hidden;
+  border-top: 2px solid rgb(4, 86, 209);
+}
+
+.social {
+  text-align: center;
+}
+
+.social>li {
+  display: inline;
+}
+
+.social i {
+  font-size: 300%;
+  margin: 0.1%;
+  padding: 5%;
+  color: #4dec03;
+}
+
